@@ -1,0 +1,202 @@
+/* クリアフィックス */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.header {
+  width: 400px;
+  height: 100px;
+  background-color: #141f40;
+}
+
+.left {
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+  float: left;
+}
+
+.right {
+  float: left;
+  width: 250px;
+  height: 250px;
+}
+
+.sikaku {
+  float: left;
+}
+
+.pink {
+  float: left;
+}
+
+.kiro {
+  width: 150px;
+  height: 50px;
+  background-color: #dbd400;
+}
+
+.ao {
+  width: 150px;
+  height: 100px;
+  background-color: #0093b7;
+}
+
+.pink {
+  width: 100px;
+  height: 150px;
+  background-color: #ff9e6b;
+}
+
+
+.right-footer {
+  width: 250px;
+  height: 100px;
+  background-color: #8c2727;
+}
+
+.footer {
+  width: 400px;
+  height: 100px;
+  background-color: #d98d30;
+}
+
+/* タブレットのレイアウト */
+@media screen and (max-width: 767px) {
+  .header {
+    width: 300px;
+    height: 100px;
+    background-color: #141f40;
+  }
+
+  .left {
+    width: 100px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+  }
+
+  .right {
+    float: left;
+    width: 200px;
+    height: 250px;
+  }
+
+  /* rightの中のレイアウト */
+
+  .sikaku {
+    float: left;
+  }
+
+  .pink {
+    float: left;
+  }
+
+  .kiro {
+    width: 125px;
+    height: 50px;
+    background-color: #dbd400;
+  }
+
+  .ao {
+    width: 125px;
+    height: 100px;
+    background-color: #0093b7;
+  }
+
+  .pink {
+    width: 75px;
+    height: 150px;
+    background-color: #ff9e6b;
+  }
+
+
+  .right-footer {
+    width: 200px;
+    height: 100px;
+    background-color: #8c2727;
+  }
+
+
+
+  .footer {
+    width: 300px;
+    height: 100px;
+    background-color: #d98d30;
+  }
+
+}
+
+
+
+/* スマホのレイアウト */
+@media screen and (max-width: 479px) {
+  .header {
+    width: 150px;
+    height: 100px;
+    background-color: #141f40;
+  }
+
+  .left {
+    width: 150px;
+    height: 150px;
+    background-color: #80bfa8;
+    float: none;
+  }
+
+  .right {
+    float: none;
+    width: 150px;
+    height: 400px;
+  }
+
+  /* rightの中のレイアウト */
+  .sikaku {
+    float: none;
+  }
+
+  .pink {
+    float: none;
+  }
+
+ .right-contents {
+  display: flex;
+  flex-direction: column-reverse;
+ }
+
+  .kiro {
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+  }
+
+  .ao {
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+  }
+
+  .pink {
+    width: 150px;
+    height: 150px;
+    background-color: #ff9e6b;
+  }
+
+
+  .right-footer {
+    width: 150px;
+    height: 100px;
+    background-color: #8c2727;
+  }
+
+
+
+  .footer {
+    width: 150px;
+    height: 100px;
+    background-color: #d98d30;
+  }
+  
+}
