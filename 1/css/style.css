@@ -1,0 +1,172 @@
+/* headerのレイアウト */
+.header {
+  height: 100px;
+  width: 400px;
+  background-color: #141f40;
+  position: relative;
+
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.red {
+  width: 40px;
+  height: 40px;
+  background-color: #a9004b;
+  border: 10px solid #FFFFFF;
+}
+
+.red:first-child {
+  border-right: none;
+}
+
+.red:last-child {
+  border-left: none;
+}
+
+
+/* mainのCSS */
+.main {
+  width: 400px;
+  height: 250px;
+  display: flex;
+}
+
+.left {
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+}
+
+/* rightのCSS */
+.right {
+  width: 250px;
+  height: 250px;
+  background-color: #8c2727;
+  position: relative;
+}
+
+.right-menu {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.orange {
+  width: 140px;
+  height: 40px;
+  background-color: #ff863f;
+  border: 5px solid #FFFFFF;
+}
+
+.orange:first-child {
+  margin-bottom: 10px;
+}
+
+.orange:last-child {
+  margin-top: 10px;
+}
+
+/* footerのレイアウトCSS */
+.footer {
+  height: 100px;
+  width: 400px;
+  background-color: #d98d30;
+}
+
+/* スマホ用レイアウト */
+@media screen and (max-width: 479px) {
+
+  /* headerのレイアウト */
+  .header {
+    height: 200px;
+    width: 200px;
+    background-color: #141f40;
+    position: relative;
+
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+  }
+
+  .red {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    border: 10px solid #FFFFFF;
+  }
+
+  .red:first-child {
+    border-right: 10px solid #FFFFFF;
+    border-bottom: none;
+  }
+
+  .red:last-child {
+    border-left: 10px solid #FFFFFF;
+    border-top: none;
+  }
+
+
+
+  /* mainのCSS */
+  .main {
+    width: 200px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    width: 200px;
+    height: 100px;
+    background-color: #80bfa8;
+  }
+
+  /* rightのCSS */
+  .right {
+    width: 200px;
+    height: 180px;
+    background-color: #8c2727;
+    position: relative;
+  }
+
+  .right-menu {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+  }
+
+  .orange {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+  }
+
+  .orange:first-child {
+    margin-bottom: 10px;
+  }
+
+  .orange:last-child {
+    margin-top: 10px;
+  }
+
+
+  /* footerのレイアウトCSS */
+  .footer {
+    height: 100px;
+    width: 200px;
+    background-color: #d98d30;
+  }
+}
