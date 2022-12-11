@@ -1,0 +1,23 @@
+body {
+  background-color: dimgray;
+}
+h1 {
+  color: #ffff;
+  border-bottom: 3px solid #ffff;
+  text-align: center;
+}
+#form1 {
+  margin-top: 70px;
+  text-align: center;
+}
+
+h2, p {
+  color: #ffff;
+  text-align: center;
+}
+
+
+.questionform {
+  text-align: center;
+  color: #ffff;
+}
