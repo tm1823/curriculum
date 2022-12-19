@@ -48,7 +48,13 @@
         <tr>
             <td><?php echo $row['id']; ?></td>
             <td><?php echo $row['title']; ?></td>
-            <td><?php echo $row['category_no']; ?></td>
+            <td><?php if( $row['category_no'] == 1){
+              echo "食事";
+            } elseif ($row['category_no'] == 2){
+              echo "旅行";
+            } else{
+              echo "その他";
+            } ?></td>
             <td><?php echo $row['comment']; ?></td>
             <td><?php echo $row['created']; ?></td>
         </tr>
