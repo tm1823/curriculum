@@ -1,0 +1,54 @@
+h2 {
+  margin-bottom: 0;
+}
+.btn1{
+  
+  margin-top: 18px;
+  height: 40px;
+  width: 150px;
+  background-color: #345fd4;
+  color: #FFFF;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+.btn2 {
+  margin-left: 1px;
+  margin-top: 18px;
+  height: 40px;
+  width: 150px;
+  background-color: #4e4f52;
+  color: #FFFF;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+
+}
+
+/* tableのCSS */
+table{
+  margin-top: 20px;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+}
+table, th, td {
+  border:1px solid  #a9a9a97d;
+  border-collapse: collapse;
+  
+}
+th {
+  background-color: #a9a9a97d;
+}
+
+.btn3 {
+  background-color: red;
+  border: none;
+  border-radius: 3px;
+}
+.btn3 a {
+  color: #FFFF;
+  text-decoration: none;
+}

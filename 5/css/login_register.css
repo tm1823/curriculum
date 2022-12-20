@@ -1,0 +1,53 @@
+.login_header {
+  display: flex;
+  align-items: center;
+}
+.login_header h2{
+  font-size: 25px;
+}
+.login_header .btn {
+  margin-left: 29px;
+  height: 45px;
+  width: 180px;
+  background-color: #0bbfbf;
+  color: #FFFF;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+
+
+
+#username{
+  border-radius: 6px;
+  border:1px solid #999999;
+  font-size: 17px;
+}
+#password{
+  border-radius: 6px;
+  border:1px solid #999999;
+  font-size: 17px;
+}
+.button {
+  margin-left: 1px;
+  margin-top: 18px;
+  height: 50px;
+  width: 180px;
+  background-color: #345fd4;
+  color: #FFFF;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+
+
+h1 {
+  margin-bottom: 0;
+}
+#name {
+  border-radius: 6px;
+  border:1px solid #999999;
+  font-size: 17px;
+}
